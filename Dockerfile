@@ -1,7 +1,7 @@
 FROM debian:stretch as buildstage
 
 ARG KODI_NAME="Leia"
-ARG KODI_VERSION="18.7"
+ARG KODI_VERSION="18.8"
 
 # defines which addons to build
 ARG KODI_ADDONS="vfs.rar"
